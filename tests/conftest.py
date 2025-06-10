@@ -7,5 +7,5 @@ def common_api_ui_fixture():
 
 
 @pytest.fixture
-def api_load_fixture_change():
-    return 1
+def common_api_ui_fixture_get_str():
+    return "str"
